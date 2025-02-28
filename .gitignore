@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.bin
+*.db
+/Questao1_SOMA_FOR/.vs/Questao1_SOMA_FOR/CopilotIndices/17.12.68.61481
+/Questao1_SOMA_FOR/Questao1_SOMA_FOR/obj
+/Questao2_Fibonacci/.vs/Questao2_Fibonacci
+*.v2
+*.vsidx
+*.suo
+*.json
+*.dll
+/Questao1_SOMA_FOR/Questao1_SOMA_FOR/bin/Debug/net8.0
+/Questao2_Fibonacci/Questao2_Fibonacci/obj
+/Questao2_Fibonacci/Questao2_Fibonacci/bin/Debug/net8.0
+*.csproj
