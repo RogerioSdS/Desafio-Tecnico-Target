@@ -29,24 +29,6 @@ namespace Questao3_Faturamento_Mensal
             Console.WriteLine($"Maior faturamento: R${maiorFaturamento:F2}");
             Console.WriteLine($"Número de dias acima da média mensal: {diasAcimaDaMedia}");
 
-            // Faturamento total e por estado
-            Dictionary<string, double> faturamentoPorEstado = new Dictionary<string, double>
-        {
-            { "SP", 67836.43 },
-            { "RJ", 36678.66 },
-            { "MG", 29229.88 },
-            { "ES", 27165.48 },
-            { "Outros", 19849.53 }
-        };
-
-            double totalFaturamento = faturamentoPorEstado.Values.Sum();
-
-            Console.WriteLine("\nPercentual de representação de cada estado no faturamento total:");
-            foreach (var estado in faturamentoPorEstado)
-            {
-                double percentual = (estado.Value / totalFaturamento) * 100;
-                Console.WriteLine($"{estado.Key}: {percentual:F2}%");
-            }
         }
     }
 
