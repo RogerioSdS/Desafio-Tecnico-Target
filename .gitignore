@@ -10,9 +10,13 @@
 *.v2
 *.vsidx
 *.suo
-*.json
 *.dll
 /Questao1_SOMA_FOR/Questao1_SOMA_FOR/bin/Debug/net8.0
 /Questao2_Fibonacci/Questao2_Fibonacci/obj
 /Questao2_Fibonacci/Questao2_Fibonacci/bin/Debug/net8.0
 *.csproj
+/Questao3_Faturamento_Mensal/.vs/Questao3_Faturamento_Mensal/CopilotIndices/17.12.68.61481
+/Questao3_Faturamento_Mensal/Questao3_Faturamento_Mensal/bin
+/Questao3_Faturamento_Mensal/Questao3_Faturamento_Mensal/obj
+/Questao1_SOMA_FOR/.vs/Questao1_SOMA_FOR/v17
+/Questao3_Faturamento_Mensal/.vs/Questao3_Faturamento_Mensal/v17
