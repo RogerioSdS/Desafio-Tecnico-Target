@@ -1,26 +1,27 @@
 ﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+# Ignora arquivos e pastas do Visual Studio
 ################################################################################
 
-*.bin
+# Diretórios e arquivos de build
+**/bin/
+**/obj/
+
+# Diretórios do Visual Studio
+.vs/
+
+# Arquivos de configurações do Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de pacotes NuGet
+*.nupkg
+.nuget/
+
+# Outros arquivos temporários
 *.db
-/Questao1_SOMA_FOR/.vs/Questao1_SOMA_FOR/CopilotIndices/17.12.68.61481
-/Questao1_SOMA_FOR/Questao1_SOMA_FOR/obj
-/Questao2_Fibonacci/.vs/Questao2_Fibonacci
 *.v2
 *.vsidx
-*.suo
 *.dll
-/Questao1_SOMA_FOR/Questao1_SOMA_FOR/bin/Debug/net8.0
-/Questao2_Fibonacci/Questao2_Fibonacci/obj
-/Questao2_Fibonacci/Questao2_Fibonacci/bin/Debug/net8.0
 *.csproj
-/Questao3_Faturamento_Mensal/.vs/Questao3_Faturamento_Mensal/CopilotIndices/17.12.68.61481
-/Questao3_Faturamento_Mensal/Questao3_Faturamento_Mensal/bin
-/Questao3_Faturamento_Mensal/Questao3_Faturamento_Mensal/obj
-/Questao1_SOMA_FOR/.vs/Questao1_SOMA_FOR/v17
-*.vs.*
-/Questao4_Faturamento_Distribuidora/.vs/Questao4_Faturamento_Distribuidora
-/Questao4_Faturamento_Distribuidora/Questao4_Faturamento_Distribuidora/bin/Debug/net8.0
-/Questao4_Faturamento_Distribuidora/Questao4_Faturamento_Distribuidora/obj
-/Questao3_Faturamento_Mensal/.vs/Questao3_Faturamento_Mensal/v17
